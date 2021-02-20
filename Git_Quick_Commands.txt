@@ -1,0 +1,2 @@
+git diff (unstaged vs staged), git diff --staged (staged vs commit)
+git rm <filename>, --cached option to keep the file on your hard drive but not have Git track it anymore.
