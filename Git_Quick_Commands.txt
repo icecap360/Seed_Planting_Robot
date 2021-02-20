@@ -1,0 +1,5 @@
+$ git diff (unstaged vs staged), git diff --staged (staged vs commit)
+$ git rm <filename>, --cached option to keep the file on your hard drive but not have Git track it anymore.
+$ git mv file_from file_to
+$ git log, -p to see differences, -2 to see last 2, --stat, --name-only, --grep, -- <file/directory>, -S <cmmots that touch this string>, $ git log --pretty=oneline, $ git log --pretty=format:"%h - %an, %ar : %s"
+$ git commit --amend, only adds staging area
