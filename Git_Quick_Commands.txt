@@ -7,8 +7,12 @@ $ git remote -v, If you’ve cloned your repository, you should at least see ori
     You can also specify -v, which shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote:
 $ git remove add <name of remote> <url>
 $ git fetch <name of remote> , The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time (still have to merge branches)
-
-
+$ git push <remote> <branch>
+$ git remote show origin
 
 
 Unstage a staged file: $ git reset HEAD CONTRIBUTING.md  OR $ git restore --staged CONTRIBUTING.md
+
+Background
+A branch in Git is simply a lightweight movable pointer to one of these commits. 
+HEAD: which branch you are currently on 
