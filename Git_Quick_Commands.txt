@@ -9,7 +9,7 @@ $ git remove add <name of remote> <url>
 $ git fetch <name of remote> , The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time (still have to merge branches)
 $ git push <remote> <branch>
 $ git remote show origin
-
+To see where various branchs are, use $ git log --oneline
 
 Unstage a staged file: $ git reset HEAD CONTRIBUTING.md  OR $ git restore --staged CONTRIBUTING.md
 
